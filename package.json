@@ -1,0 +1,47 @@
+{
+  "name": "shieldai",
+  "version": "1.0.0",
+  "description": "AI-powered code security analysis and automated fixing tool powered by Google's Generative AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shieldai": "./index.js"
+  },
+  "keywords": [
+    "security",
+    "ai",
+    "code-analysis",
+    "vulnerability-detection",
+    "security-scanning",
+    "code-security",
+    "automated-fixing",
+    "gemini-ai",
+    "security-agent"
+  ],
+  "author": {
+    "name": "Vedant Saxena",
+    "email": "6987vedsaxena@gmail.com",
+    "url": "https://https://github.com/vedsaxena6987"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vedsaxena6987/Shield-AI-Your-AI-Powered-Code-Security-Guardian-"
+  },
+
+  "homepage": "https://github.com/vedsaxena6987/Shield-AI-Your-AI-Powered-Code-Security-Guardian-/blob/main/README.md",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1",
+    "readline-sync": "^1.4.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
